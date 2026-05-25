@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MatraCalc - Learn Faster, Think Smarter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="icon" href="{{ url_for('static', filename='logo.png') }}" type="image/png">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header>
+        <div class="container">
+            <div class="logo">
+               <img src="{{ url_for('static', filename='logo.png') }}" alt="MatraCalc Logo" height="50">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#courses">Courses</a></li>
+                    <li><a href="#tricks">Tricks</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+    <div class="container">
+       <img src="{{ url_for('static', filename='logo.png') }}" alt="MatraCalc Logo" height="50">
+
+        <h1>Learn Faster, Think Smarter</h1>
+
+        <p><strong>“I don’t use a calculator — I train minds to become one.”</strong></p>
+
+        <p>
+            Train with a Human Calculator to master speed math, mental calculations, 
+            and smart problem-solving skills.
+        </p>
+
+        <p class="hero-tagline">
+            ⚡ Faster than a calculator | 🧠 Strong mental math | 🚀 Real-world thinking
+        </p>
+
+        <a href="#contact" class="btn">Get Started</a>
+    </div>
+</section>
+    <section class="ceo">
+    <div class="container">
+        <div class="ceo-box">
+
+            <!-- Your Photo -->
+            <img src="{{ url_for('static', filename='RAKESH.jpeg') }}" alt="Rakesh" class="ceo-img">
+
+            <!-- Text -->
+            <div class="ceo-text">
+<h2>Meet the Founder</h2>
+                <h3>Rakesh – Human Calculator & Founder of MatraCalc</h3>
+
+                <p>
+                    <strong>“Recognized young, trained consistently, and now teaching the world to think faster.”</strong>
+                </p>
+
+                <p>
+                    My journey as a Human Calculator started from my 3rd standard, where I discovered my natural ability for fast calculations. 
+                    By 8th standard, I received recognition from IAS officer Shalini Rajneesh, which motivated me to take this skill seriously and inspire others.
+                </p>
+
+                <p>
+                    Mathematics is not just a subject — it is a beautiful skill. 
+                    With the right techniques, anyone can make math simple, fast, and exciting.
+                </p>
+
+                <p>
+                    My mission is to make math fast, simple, and powerful for everyone.
+                </p>
+
+                <!-- Skills Section -->
+                <div class="ceo-skills">
+                    <h4>Skills</h4>
+                    <ul>
+                        <li>⚡ Mental Math Mastery</li>
+                        <li>🧠 Speed Calculation Techniques</li>
+                        <li>📈 Memory Enhancement Methods</li>
+                        <li>🎯 Logical & Analytical Thinking</li>
+                    </ul>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2>Videos</h2>
+            <div class="video-grid">
+                <div class="video">
+                    <iframe 
+                        width="100%" 
+                        height="315"
+                        src="https://www.youtube.com/embed/pocUyEG8y6Y"
+                        title="Human Calculator Speed Math"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                    <p>🔥 Human Calculator Mode – Speed Math in Action</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Courses</h2>
+            <div class="course-grid">
+                <div class="course">
+                    <h3>Basic Calculation Skills</h3>
+                    <p>Learn quick addition, subtraction, multiplication, and division techniques.</p>
+                    <a href="#contact" class="btn">Enroll Now</a>
+                </div>
+                <div class="course">
+                    <h3>Mental Math Training</h3>
+                    <p>Master mental math strategies and calculations without paper or calculator.</p>
+                    <a href="#contact" class="btn">Enroll Now</a>
+                </div>
+                <div class="course">
+                    <h3>Advanced Problem Solving</h3>
+                    <p>Enhance analytical skills and tackle complex calculation challenges.</p>
+                    <a href="#contact" class="btn">Enroll Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   <!-- Tricks Section -->
+<section id="tricks" class="tricks">
+    <div class="container">
+        <h2>Tricks</h2>
+        <p>Here’s a special trick file to help you multiply any number by 5:</p>
+
+        <!-- Embedded Google Slides -->
+        <iframe 
+            src="https://docs.google.com/presentation/d/e/2PACX-1vTF712Kht8eQL7QdwVyiuQlobHzDFLs49Drn1IfQHMUtbOatJipP11gazM6RHbI1w/pubembed?start=true&loop=true&delayms=3000" 
+            frameborder="0" 
+            width="800" 
+            height="450" 
+            allowfullscreen="true" 
+            mozallowfullscreen="true" 
+            webkitallowfullscreen="true">
+        </iframe>
+
+        <p style="margin-top: 10px;">
+            Or <a href="https://docs.google.com/presentation/d/e/2PACX-1vTF712Kht8eQL7QdwVyiuQlobHzDFLs49Drn1IfQHMUtbOatJipP11gazM6RHbI1w/pub?start=false&loop=false&delayms=3000" target="_blank">
+            click here to open in a new tab</a>.
+        </p>
+    </div>
+</section>
+    <!-- ChotuCalc Interactive Section -->
+<section id="interactive" class="interactive">
+    <div class="container">
+        <h2>ChotuCalc & CalcStorm Zone</h2>
+
+        <div class="mode-buttons">
+    <button onclick="showDoubtMode()" class="btn">Ask ChotuCalc</button>
+    <button onclick="showChallengeMode()" class="btn">CalcStorm Challenge</button>
+</div>
+
+<!-- Doubt Mode -->
+<div id="doubtMode" class="mode-box">
+    <img src="https://raw.githubusercontent.com/Rakesh-ux143/MatraCalcWebsite/main/MatraCalc.png" class="character">
+    
+    <input type="text" id="userInput" placeholder="Type your math doubt here...">
+    <button onclick="solveDoubt()" class="btn">Ask</button>
+
+    <div id="response" class="speech-box"></div>
+</div>
+
+<!-- Challenge Mode -->
+<div id="challengeMode" class="mode-box" style="display:none;">
+    
+    <img src="https://raw.githubusercontent.com/Rakesh-ux143/MatraCalcWebsite/main/CalcBrain.png" class="character">
+
+    <div id="setupSection">
+        <h3>Select Operation</h3>
+
+        <select id="operation">
+            <option value="add">Addition</option>
+            <option value="sub">Subtraction</option>
+            <option value="mul">Multiplication</option>
+            <option value="div">Division</option>
+            <option value="square">Square</option>
+            <option value="cube">Cube</option>
+        </select>
+
+        <input type="number" id="count" placeholder="How many numbers?" min="1">
+        <input type="number" id="digit" placeholder="How many digits?" min="1" max="10">
+
+        <button onclick="generateQuestion()" class="btn">Start Challenge</button>
+    </div>
+
+    <div id="questionSection" style="display:none;">
+        <h3 id="question"></h3>
+
+        <input type="number" id="answer" placeholder="Enter your answer">
+
+        <div class="button-group">
+            <button onclick="checkAnswer()" class="btn">Submit</button>
+            <button onclick="goBack()" class="btn">⬅ Back</button>
+        </div>
+
+        <div id="result" class="speech-box"></div>
+    </div>
+
+</div>
+        <section id="matraai" class="chat-section">
+    <div class="container">
+        <h2>MatraAI Assistant</h2>
+
+        <div class="chat-container">
+            <div id="chatBox" class="chat-box"></div>
+
+            <div class="chat-input">
+                <input type="text" id="chatInput" placeholder="Ask MatraAI anything...">
+                <button onclick="sendMessage()" class="btn">Send</button>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="hidden" name="form-name" value="contact">
+
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+            <div class="contact-details">
+                <p>📧 Email: <a href="mailto:hellohumancalci@gmail.com">hellohumancalci@gmail.com</a></p>
+                <p>📞 Phone: <a href="tel:+916366908488">+91 6366908488</a></p>
+                <p>💬 WhatsApp: <a href="https://wa.me/916366908488" target="_blank">Chat on WhatsApp</a></p>
+                <p>📍 Location: India</p>
+                <p>🔗 Social: 
+                    <a href="https://www.youtube.com/channel/UCLzV2ZIBXzRueRFV0-RrxgQ" target="_blank">YouTube</a> | 
+                    <a href="https://www.instagram.com/humancalculator_?igsh=Z255NHRveXJsdGpm&utm_source=qr" target="_blank">Instagram</a> | 
+                    <a href="https://www.linkedin.com/in/rakesh-yadav-r-l-human-calculator-178512259" target="_blank">LinkedIn</a>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 MatraCalc. All rights reserved.</p>
+            <div class="social">
+                <a href="https://www.instagram.com/_rockyyadav45?igsh=Z255NHRveXJsdGpm" target="_blank">Instagram</a> | 
+                <a href="https://www.youtube.com/channel/UCLzV2ZIBXzRueRFV0-RrxgQ" target="_blank">YouTube</a> | 
+                <a href="https://www.linkedin.com/in/rakesh-yadav-r-l-human-calculator-178512259" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
