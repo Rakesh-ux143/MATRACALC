@@ -1,3 +1,0 @@
-py -m pip install -r requirements.txtflask
-groq
-gunicorn
